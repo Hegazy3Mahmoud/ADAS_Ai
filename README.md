@@ -90,7 +90,7 @@ This summary illustrates the model's performance metrics evolving positively ove
 
 ##### Here is a sample of predicted images from the inference phase :
 
-![image](https://github.com/user-attachments/assets/b9dedeed-965e-487a-84f0-20c4eadf58cd)
+![Uploading 18601d83-8f1a-4527-9e7f-a0899f5656fc.jpg…]()
 
 
 ##### Finally, I saved the model in ONNX format using Valid_model.export(format="onnx"). It's now ready for production and deployment.
