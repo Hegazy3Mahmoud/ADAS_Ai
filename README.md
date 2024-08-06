@@ -1,4 +1,4 @@
-# ADAS (Advanced Driver Assistance System) Project
+![annotated_test1](https://github.com/user-attachments/assets/3716278a-49ad-4ea8-a3c5-04fc58ae0dfc)![annotated_test4](https://github.com/user-attachments/assets/c1e3d2ab-7452-4f26-bcae-6ebd81c7a1a6)# ADAS (Advanced Driver Assistance System) Project
 
 ### Overview
 This project aims to develop an Advanced Driver Assistance System (ADAS) using various computer vision models. The system includes five models:
@@ -112,6 +112,93 @@ I saved the in h5 format then convert it to tflite for the inference phase
 
 ## On Raspberry Pi 3B+ Using TensorFlow Lite
 ![RaspberryPiOutput](https://github.com/user-attachments/assets/d41a77c9-45d1-4de9-9ca9-e55762b4d941)
+
+
+
+
+# 🚗 Lane Detection Using Hough Transform
+
+This project implements a robust lane detection system using image processing techniques in OpenCV. The main steps include preprocessing the image, applying a region of interest mask, detecting edges using the Canny edge detector, and using the Hough Transform to detect lane lines.
+
+![Lane Detection]![Untitled](https://github.com/user-attachments/assets/1dfe5cf2-d373-4886-9a88-c82b3b90b869)
+
+
+## 📋 Table of Contents
+- [🚀 Introduction](#introduction)
+- [🌟 Features](#features)
+- [⚡ Installation](#installation)
+- [📷 Usage](#usage)
+- [📊 Results](#results)
+
+
+## 🚀 Introduction
+
+![Screenshot 2024-08-07 005002](https://github.com/user-attachments/assets/6f74f151-92f1-4793-aa09-0d06730c7fb8)
+
+![Screenshot 2024-08-07 004458](https://github.com/user-attachments/assets/5ce441d7-cad4-4866-8bb1-8ade2b9feb2f)
+
+
+Lane detection is a critical component in autonomous driving systems. This project aims to detect lane lines in images and videos by leveraging various image processing techniques. The pipeline includes the following steps:
+
+1. **Preprocessing the Image:** Enhance edges for better detection.
+2. **Applying a Mask:** Isolate the region of interest to focus on the road.
+3. **Detecting Edges:** Use the Canny edge detector to highlight lane lines.
+4. **Using Hough Transform:** Detect lines in the image.
+5. **Drawing Detected Lane Lines:** Overlay the detected lane lines on the original image.
+
+## 🌟 Features
+
+- **Edge Detection:** Utilize the powerful Canny edge detector to highlight lane lines.
+- **Region of Interest Masking:** Focus on the road by masking irrelevant areas.
+- **Line Detection:** Implement the Hough Transform to find lane lines.
+- **Real-time Visualization:** Overlay detected lane lines on the original image.
+
+## ⚡ Installation
+
+### Requirements
+
+- Python 3.x
+- OpenCV
+- NumPy
+- Matplotlib
+
+### Install Required Packages
+
+```bash
+pip install numpy opencv-python matplotlib
+
+
+### Usage
+
+Biometric and Man-machine Interaction
+
+The Hough transform in image processing can be used in biometric applications, such as face recognition or fingerprint recognition. The Hough transform can be used to detect and localize specific features in the image, which can be used for biometric identification. It can also be used in man-machine interaction applications, such as gesture recognition, where the Hough transform can detect the position and movement of specific body parts.
+
+3D Applications
+
+The Hough transform in image processing can be extended to three-dimensional spaces to detect three-dimensional shapes, such as planes or spheres, in 3D images or point clouds. This can be useful in applications such as 3D modeling, robotics, and computer vision.
+Object Recognition
+
+The Hough transform can be used for object recognition by detecting specific geometric shapes in images or point clouds. This can be useful in applications such as automated inspection, surveillance, or autonomous vehicles.
+
+
+Object Tracking
+
+The Hough transform can be used for object tracking by detecting and tracking specific geometric shapes over time. This can be useful in applications such as surveillance or autonomous vehicles.
+Underwater Application
+
+The Hough transform can be used in underwater applications, such as underwater object detection or mapping, where the Hough transform can detect and localize specific geometric shapes in underwater images or sonar data.
+Industrial and Commercial Application
+
+The Hough transform can be used in industrial and commercial applications, such as quality control or defect detection in manufacturing, where the Hough transform can detect and localize specific geometric shapes in images or point clouds.
+
+
+
+### Results
+
+![annotated_test1](https://github.com/user-attachments/assets/507ad1a1-6994-4de7-8079-e19faa4c4955)
+![annotated_straight_lines2](https://github.com/user-attachments/assets/f30cc224-fa48-489a-80fc-0a312f3abdbb)
+![annotated_straight_lines1](https://github.com/user-attachments/assets/a9e0a5af-385f-4057-9a4c-3f545a6973c2)
 
 
 ### Traffic Sign Detection
