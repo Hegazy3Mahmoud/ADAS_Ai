@@ -15,8 +15,7 @@ This project aims to develop an Advanced Driver Assistance System (ADAS) using v
 
 
 ### Drowsiness Detection
-#### Overview
-The model consist of four models :
+This model consist of four models :
 * Haar Cascade Classifiers
     * Face
     * Left Eye
