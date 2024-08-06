@@ -94,6 +94,9 @@ This summary illustrates the model's performance metrics evolving positively ove
 
 
 
-##### Finally, I saved the model in ONNX format using Valid_model.export(format="onnx"). It's now ready for production and deployment.
+#### Finally, I saved the model in ONNX format using Valid_model.export(format="onnx"). It's now ready for production and deployment.
+
+### This notebook was created in Colab.
 
 
+## To test the model , open "try_out_model_on_vid&images.ipynb" file , place model.onnx and your image or video in the directory. The results will be saved in the runs directory.
