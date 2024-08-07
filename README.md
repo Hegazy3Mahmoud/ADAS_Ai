@@ -121,6 +121,9 @@ The following table summarizes the performance metrics of the model:
 
 **Accuracy**: The ratio of correctly predicted observations to the total observations. Formula: \(\frac{TP + TN}{TP + TN + FP + FN}\)
 
+![1b7f4c92-c218-4703-9303-4c693c527f05](https://github.com/user-attachments/assets/9a8ad1c9-02b7-48bd-bd44-8d94f73d7452)
+
+
 
 ### Saving the model
 I saved the in h5 format then convert it to tflite for the inference phase
