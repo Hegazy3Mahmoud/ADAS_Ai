@@ -253,40 +253,51 @@ YOLOv10-N	640	2.3M	6.7G
 
 ###### 35 epochs completed in 0.906 hours via T-4 GPU (Co-lab).
 Epochs 1-35: Training Metrics Summary
-Box Loss (Training):
 
+
+-Box Loss (Training):
 Decreased from 1.75 at Epoch 1 to 1.14 at Epoch 35, indicating a steady improvement in the model’s ability to predict bounding boxes more accurately over time.
-Classification Loss (Training):
 
+
+-Classification Loss (Training):
 Decreased from 10.93 at Epoch 1 to 0.8678 at Epoch 35, showing a significant enhancement in class prediction accuracy as the model trained.
-DFL Loss (Training):
 
+
+-DFL Loss (Training):
 Decreased from 2.297 at Epoch 1 to 1.807 at Epoch 35, reflecting refinement in the model’s distributional focal loss over the epochs.
-Precision (Validation, B):
 
+
+-Precision (Validation, B):
 Ranged from 0.396 at Epoch 1 to 0.912 at Epoch 35, demonstrating increased accuracy in predicting true positives throughout the training.
-Recall (Validation, B):
 
+
+-Recall (Validation, B):
 Varied between 0.0806 at Epoch 1 and 0.867 at Epoch 35, indicating improvement in the model’s ability to detect most positive instances.
-mAP50 (Validation, B):
 
+
+-mAP50 (Validation, B):
 Improved from 0.117 at Epoch 1 to 0.930 at Epoch 35, showing better overall performance across classes.
-mAP50-95 (Validation, B):
 
+
+-mAP50-95 (Validation, B):
 Increased from 0.0976 at Epoch 1 to 0.814 at Epoch 35, reflecting enhanced performance considering different IoU thresholds.
-Box Loss (Validation):
 
+
+-Box Loss (Validation):
 Dropped from 1.75 at Epoch 1 to 1.14 at Epoch 35, indicating better validation results over time.
-Classification Loss (Validation):
 
+
+-Classification Loss (Validation):
 Decreased from 10.93 at Epoch 1 to 0.8678 at Epoch 35, showing improved validation accuracy.
-DFL Loss (Validation):
 
+
+-DFL Loss (Validation):
 Slightly reduced from 2.297 at Epoch 1 to 1.807 at Epoch 35.
 Learning Rate:
 
-Gradually decreased from 0.000154 at Epoch 1 to 0.000020 at Epoch 35, following the learning rate schedule.
-This summary illustrates the model's performance metrics evolving positively over the epochs, showing consistent improvements in precision, recall, and overall accuracy while the losses decreased, reflecting enhanced model performance.
+
+-This summary illustrates the model's performance metrics evolving positively over the epochs, showing consistent improvements in precision, recall, and overall accuracy while the losses decreased, reflecting enhanced model performance.
+
 
 ![download](https://github.com/user-attachments/assets/0f8e6622-193a-432f-a163-65b9d237a12b)
 
