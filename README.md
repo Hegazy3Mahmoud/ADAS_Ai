@@ -102,6 +102,26 @@ Dataset has been already balanced,i.e both categories have same num of images. T
 ### Confusion Matrix
 ![d15a7840-433f-469d-956d-83136e7a5149](https://github.com/user-attachments/assets/cfd12c38-5fa1-4115-85da-9d97aa5077e0)
 
+### Model Evaluation Metrics
+
+The following table summarizes the performance metrics of the model:
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.99      | 0.99   | 0.99     | 13,812  |
+| 1     | 0.99      | 0.99   | 0.99     | 14,205  |
+| **Accuracy** | | | **0.99** | **28,017** |
+| **Macro Avg** | 0.99 | 0.99 | 0.99 | 28,017 |
+| **Weighted Avg** | 0.99 | 0.99 | 0.99 | 28,017 |
+
+- **Precision**: The ratio of correctly predicted positive observations to the total predicted positives. Formula: \(\frac{TP}{TP + FP}\)
+- **Recall**: The ratio of correctly predicted positive observations to the all observations in actual class. Formula: \(\frac{TP}{TP + FN}\)
+- **F1-Score**: The weighted average of Precision and Recall. Formula: \(2 \times \frac{Precision \times Recall}{Precision + Recall}\)
+- **Support**: The number of occurrences of each class in the dataset.
+
+**Accuracy**: The ratio of correctly predicted observations to the total observations. Formula: \(\frac{TP + TN}{TP + TN + FP + FN}\)
+
+
 ### Saving the model
 I saved the in h5 format then convert it to tflite for the inference phase
 
